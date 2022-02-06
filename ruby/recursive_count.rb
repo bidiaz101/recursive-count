@@ -1,5 +1,10 @@
 def recursive_count(num = 0)
   # type your code in here
+  if num >= 10
+    return nil
+  end
+  puts num
+  return recursive_count(num + 1)
 end
 
 if __FILE__ == $PROGRAM_NAME
